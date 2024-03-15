@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Universitatea Politehnica Bucuresti</title>
+    <link rel="stylesheet" href="styles/UPB-Formular.css" />
+  </head>
+
+  <header>
+    <div class="general">
+      <div class="header-bar">
+        <div class="left-side">
+          <img class="Politehnica-logo" src="images/UPB-Bucuresti-logo.png">
+          <div class="optiuni-navigatie">
+            <select class="degrees">
+              <option selected disabled>DEGREES</option>
+              <option>Undergraduate</option>
+              <option>Graduate</option>
+              <option>Doctoral</option>
+            </select>
+            <select class="research">
+              <option selected disabled>RESEARCH</option>
+              <option>Engage with us</option>
+              <option>Support for researchers</option>
+              <option>Using researxh to engage</option>
+              <option>Recognition</option>
+            </select>
+            <select class="students">
+              <option selected disabled>STUDENTS</option>
+              <option>Study guidance</option>
+              <option>Student Handbook</option>
+              <option>Examinations and assessments</option>
+              <option>Student conduct</option>
+            </select>
+            <select class="news">
+              <option selected disabled>NEWS & EVENTS</option>
+              <option>Events</option>
+              <option>Features</option>
+              <option>Politehnica profiles</option>
+            </select>
+          </div>
+          <div class="right-side">
+            <div class="obiecte-dreapta">
+              <input
+                class="search-bar"
+                type="text"
+                placeholder="Search about Universitatea Politehnica Bucuresti...">
+              <div class="butoane-dreapta">
+                <button class="Staff">Staff</button>
+                <button class="International">International Projects</button>
+                <button class="Alumni">Alumni</button>
+                <button class="Campus">Campus Community</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br><br>
+
+  <body>
+    <div class="New">
+      What's new?<img class="arrow-right" src="images/arrow-right1.png">Tech Nexus at UPB
+    </div>
+    <br>
+    <div style="display: flex">
+      <div class="body-left">
+        <div class="iframe">
+          <iframe
+            src="https://giphy.com/embed/SWiINoLNvHcAG2ij4C"
+            width="480"
+            height="480"
+            frameborder="0"
+            class="giphy-embed"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="ptflex">
+          <p class="text-left-right">
+            Explore the<br>future through<br>our event!<br>
+            <hr>
+            Sign up<br>TODAY!
+          </p>
+        </div>
+      </div>
+      <div style="flex: 1">
+        <form class="formular">
+          <label class="Title">FILL OUT THE FORM</label><br><br>
+          <label name="Nume" class="Nume">First name:</label>
+          <label class="Prenume">Last Name:</label><br />
+          <input placeholder="ex: Mara" class="Bara" type="text" /><input
+            placeholder="ex: Chiosea"
+            class="Bara-dreapta"
+            type="text"><br>
+          <label class="Nume">Phone Number:</label>
+          <label class="Email">Email Address:</label><br>
+          <input class="Bara" type="text" /><input
+            class="Bara-dreapta"
+            type="text"><br><br>
+          <label class="Title2">More about you</label><br>
+          <select class="Class">
+            <option>Class</option>
+            <option selected disabled>Class</option>
+            <option>8213</option>
+            <option>8214</option>
+            <option>8215</option></select><br>
+          <label class="Nume">No. of students:</label>
+          <label class="Percentage">Percentage:</label><br>
+          <input class="Bara" type="text">
+          <input class="Bara-dreapta" type="text"><br><br>
+          <input class="Submit" type="submit" value="Submit" onclick="myFunction()">
+          <input class="Reset" type="reset" value="Reset">
+        </form>
+
+        <script>
+          function myFunction() {
+            alert("Thank you for submitting the form!");
+          }
+        </script>
+
+        <br><br><br><br>
+      </div>
+    </div>
+
+    <p class="New">DISCOVER</p>
+    <div class="discover">
+      <div>
+        <img class="thumbnail" src="images/image_2.jpg" />
+        <p class="descriere"><b>OXPLORE: THE HOME OF BIG QUESTIONS</b></p>
+        <p class="sub-descriere">Explore the University's innovative website for 11-18 year olds</p>
+      </div>
+      <div class="dicover-box">
+        <img class="thumbnail" src="images/image_3.jpg" />
+        <p class="descriere"><b>PHYSICS NEWS</b></p>
+        <p class="sub-descriere">Dr Noel receives Outstanding Research Supervision award</p>
+      </div>
+      <div>
+        <img class="thumbnail" src="images/image_4.jpg" />
+        <p class="descriere"><b>EXPLORING CHAUCER HERE AND NOW</b></p>
+        <p class="sub-descriere">14 Mar, 5pm book now to join Professor Marion Turner online as she introduces this Bodleian exhibition</p>
+      </div>
+      <div>
+        <img class="thumbnail" src="images/image_5.jpg" />
+        <p class="descriere"><b>THE OUP BLOG</b></p>
+        <p class="sub-descriere">Rhetorical "um"</p>
+      </div>
+    </div>
+  </body>
+
+  <br><br>
+
+  <footer class="footer">
+    <div>
+      <p class="footer-text">
+        &#169; 2024 Universitatea Politehnica Bucuresti
+        <img class="facebook" src="images/facebook.png" />
+        <img class="linkedin" src="images/linkedin.png" />
+        <img class="linkedin" src="images/youtube.png" />
+      </p>
+    </div>
+  </footer>
+</html>
